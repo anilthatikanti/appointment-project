@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 15px;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px 60px;
+}
+.arrangement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleLabel {
+  font-family: 'roboto';
+  color: #b5b7c4;
+  font-weight: 400;
+  font-size: 12px;
+}
+Input {
+  border-color: #b5b7c4;
+  border-radius: 3px;
+  outline: none;
+  padding: 3px;
+  width: 200px;
+}
+.dateLabel {
+  font-family: 'roboto';
+  color: #b5b7c4;
+  font-weight: 400;
+  font-size: 12px;
+}
+.addBtn {
+  border-radius: 3px;
+  border-width: 0px;
+  outline: none;
+  font-family: 'roboto';
+  color: #ffffff;
+  background-color: #8b5cf6;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+.appointmentImage {
+  height: 200px;
+}
+hr {
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.heading {
+  font-size: 20px;
+}
+.paragraph {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+.ulist {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.belowContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.isStarBtn {
+  background-color: transparent;
+  border-radius: 15px;
+  font-family: 'roboto';
+  width: 100px;
+  height: 30px;
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  font-weight: 500;
+  outline: none;
+  border-width: 1px;
+}
+.isStarredBtn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 15px;
+  font-family: 'roboto';
+  width: 100px;
+  height: 30px;
+  border-width: 0px;
+  outline: none;
+  font-weight: 500;
+}
